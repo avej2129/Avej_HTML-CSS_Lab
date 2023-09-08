@@ -1,0 +1,66 @@
+body {
+   height: auto;
+   margin: 0;
+    
+}
+
+h1 {
+   background-color: red;
+   margin: 0%;
+   padding: 25px;
+   text-align: right;
+}
+
+nav {
+   position: sticky;
+   top: 0%;
+   z-index: 1;
+
+}
+
+.menu {
+   margin: 0%;
+   background-color: grey;
+}
+
+.menu li {
+   position: relative;
+   padding: 10px;
+   display: inline-block;
+}
+
+.menu li a {
+   color: white;
+   font-size: 20px;
+   text-decoration: none;
+}
+
+.menu li:hover {
+   background-color: black;
+}
+
+.menu li:hover #DD1,
+.menu li:hover #DD2 {
+   display: block;
+}
+
+#DD1,
+#DD2 {
+   position: absolute;
+   display: none;
+   top: 43px;
+   background-color: whitesmoke;
+   padding: 0%;
+}
+
+#DD1 li:hover,
+#DD2 li:hover {
+   background-color: gainsboro;
+}
+
+#DD1 li a,
+#DD2 li a {
+   color: steelblue;
+   font-size: 17px;
+   
+}
